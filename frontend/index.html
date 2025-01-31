@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Assistant</title>
+    <link rel="stylesheet" href="/frontend/styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h2>Chat with SQLite Assistant</h2>
+        <div id="chat-box"></div>
+        <div class="suggestions">
+            <p>Try asking:</p>
+            <button onclick="sendSuggestion('Show me all employees in the Sales department.')">Employees in Sales</button>
+            <button onclick="sendSuggestion('Who is the manager of the Engineering department?')">Manager of Engineering</button>
+            <button onclick="sendSuggestion('List all employees hired after 2021-01-01.')">Employees hired after 2021</button>
+            <button onclick="sendSuggestion('What is the total salary expense for the Marketing department?')">Salary Expense for Marketing</button>
+        </div>
+        <input type="text" id="user-input" placeholder="Type your query here...">
+        <button onclick="sendQuery()">Send</button>
+    </div>
+    <script src="/frontend/script.js"></script>
+</body>
+</html>
