@@ -1,4 +1,5 @@
-# Chat Assistant for SQLite Database
+## Deployment
+Live demo: **[Chat Assistant for SQLite Database](https://chat-assistant-fwl3.onrender.com)**
 
 ![Screenshot 2025-01-31 203126](https://github.com/user-attachments/assets/a3c40223-31ca-4302-8149-b6255f36634a)
 
