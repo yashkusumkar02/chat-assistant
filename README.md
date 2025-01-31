@@ -1,5 +1,8 @@
 # Chat Assistant for SQLite Database
 
+![Screenshot 2025-01-31 203126](https://github.com/user-attachments/assets/a3c40223-31ca-4302-8149-b6255f36634a)
+
+
 ## Overview
 This is a Flask-based Chat Assistant that interacts with an SQLite database to answer user queries about employees and departments. It supports natural language queries and provides structured responses.
 
